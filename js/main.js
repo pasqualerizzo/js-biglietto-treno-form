@@ -38,15 +38,15 @@ function calcolaPrezzo(event) {
   let nomePasseggero = document.getElementById("passeggero");
   nomePasseggero.textContent = nome;
 
-  var bigliettoRandom = document.getElementById("biglietto");
+  let bigliettoRandom = document.getElementById("biglietto");
   bigliettoRandom.textContent = ("Biglietto Standard");
 
-  var carrozzaRandom = document.getElementById("carrozza");
-  var carrozzaNumero = Math.floor(Math.random() * 10) + 1;
+  let carrozzaRandom = document.getElementById("carrozza");
+  let carrozzaNumero = Math.floor(Math.random() * 10) + 1;
   carrozzaRandom.textContent = carrozzaNumero;
 
-  var codiceRandom = document.getElementById("codice");
-  var codiceNumero = Math.floor(Math.random() * 10000) + 1;
+  let codiceRandom = document.getElementById("codice");
+  let codiceNumero = Math.floor(Math.random() * 10000) + 1;
   codiceRandom.textContent = codiceNumero;
 }
 
